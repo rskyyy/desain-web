@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>FekShoes</title>
+</head>
+
+<style>
+         header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            margin: 0 5px;
+        }
+
+        nav a:hover {
+            color: #555;
+        }
+</style>
+<body>
+
+<header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="image.html">Image</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+    <img src="logo.jpg" width="150" alt="FekShoes Logo">
+    <h1>FekShoes</h1>
+</header>
+
+<main>
+    <section>
+        <article>
+            <h2>Contact Us</h2>
+            <p>
+                Terima kasih telah mengunjungi situs kami! Jika Anda memiliki pertanyaan, 
+                masukan, atau kebutuhan bantuan lainnya, jangan ragu untuk menghubungi kami. Tim kami siap membantu Anda 
+                dengan senang hati.
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+
+        <p>Jika Anda memiliki pertanyaan atau ingin berdiskusi lebih lanjut, silakan hubungi kami melalui formulir di bawah ini atau melalui kontak di bawah.</p>
+            <form action="hubungi-kami.php" method="POST">
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea><br>
+                <input type="submit" value="Kirim Pesan">
+            </form>
+            
+        <table border="0" cellspacing="0" cellpadding="2">
+            <tr>
+                <td><strong>Alamat</strong></td>
+                <td>Jl. Jenderal Sudirman No. 123<br>Jakarta Barat, 12345<br>Indonesia</td>
+            </tr>
+            <tr>
+                <td><strong>Telepon</strong></td>
+                <td>+62 123-456-7890</td>
+            </tr>
+            <tr>
+                <td><strong>Email</strong></td>
+                <td>info@yourshoestore.com</td>
+            </tr>
+            <tr>
+                <td><strong>Jam Operasional</strong></td>
+                <td>
+                    Senin - Jumat: 09.00 - 18.00 WIB<br>
+                    Sabtu: 09.00 - 15.00 WIB<br>
+                    Minggu & Hari Libur Nasional: Tutup
+                </td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+</body>
+</html>
